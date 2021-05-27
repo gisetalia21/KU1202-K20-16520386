@@ -1,26 +1,10 @@
-int change_count_by = 0;
-
-int count = 0;
-
-int counter;
-
 void setup()
 {
   pinMode(7, OUTPUT);
-  Serial.begin(9600);
-
 }
 
 void loop()
 {
-  for (counter = 0; counter < 3; ++counter) {
-    digitalWrite(7, HIGH);
-    delay(1000); // Wait for 1000 millisecond(s)
-    digitalWrite(7, LOW);
-    delay(1000); // Wait for 1000 millisecond(s)
-  }
-  delay(5000); // Wait for 5000 millisecond(s)
-  count += 1;
-  Serial.print("hello world");
-  Serial.println(count);
+  digitalWrite(7, HIGH);
+  delay(10); // Delay a little bit to improve simulation performance
 }
