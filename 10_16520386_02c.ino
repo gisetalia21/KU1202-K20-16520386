@@ -1,6 +1,5 @@
 void setup()
 {
-  pinMode(0, OUTPUT);
   pinMode(10, OUTPUT);
   pinMode(11, OUTPUT);
   pinMode(9, OUTPUT);
