@@ -1,5 +1,3 @@
-// C++ code
-//
 int counter;
 
 void setup()
